@@ -1,4 +1,4 @@
-package ec.edu.epn.redes.date.udp;
+package ec.edu.epn.redes.mensaje.udp;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -21,8 +21,8 @@ public class DateClientUDP {
 	/**
      * Runs the client as an application.  First it displays a dialog
      * box asking for the IP address or hostname of a host running
-     * the date server, then connects to it and displays the date that
-     * it serves.
+     * the date server, then connects to it and displays the data that
+     * the server send.
      */
 	
 	public static void main(String[] args) throws IOException {
