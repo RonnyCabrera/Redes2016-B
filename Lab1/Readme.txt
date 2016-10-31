@@ -8,7 +8,8 @@ En la práctica de transmisión UDP, entregar lo siguiente:
 6.	Captura de pantalla del mensaje desplegado en el lado del cliente
 7.	Grafico explicativo del viaje del paquete por los dispositivos involucrados
 
-Las capturas de pantalla y el video subirlos al Dropbox, en Github solo subir el código fuente modificado.
+Las capturas de pantalla y el video subirlos al Dropbox https://www.dropbox.com/sh/d393wo32q8ko7pr/AADxSgbiNGnzW9uTSW4b3LGDa?dl=0
+En Github solo subir el código fuente modificado.
 
 Para los puntos 1 y 2, si la prueba se la hace en Windows usar el comando ipconfig -all
 Para los puntos 1 y 2, si la prueba se la hace en Linux usar el comando ifconfig
