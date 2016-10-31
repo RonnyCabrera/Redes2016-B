@@ -8,6 +8,8 @@ En la práctica de transmisión UDP, entregar lo siguiente:
 6.	Captura de pantalla del mensaje desplegado en el lado del cliente
 7.	Grafico explicativo del viaje del paquete por los dispositivos involucrados
 
+Las capturas de pantalla y el video subirlos al Dropbox, en Github solo subir el código fuente modificado.
+
 Para los puntos 1 y 2, si la prueba se la hace en Windows usar el comando ipconfig -all
 Para los puntos 1 y 2, si la prueba se la hace en Linux usar el comando ifconfig
 Para los puntos 3 y 4, si la prueba se la hace en Windows usar el comando netstat –ano
@@ -15,6 +17,7 @@ Para los puntos 3 y 4, si la prueba se la hace en Windows usar el comando netsta
 Si se requiere eliminar procesos en Windows:
 1. Identificar el proceso con el comando netstat -ano
 2. Eliminar el proceso con el comando taskkill -pid <#proceso> /f
+
 Si se requiere eliminar procesos en Linux:
 1. Identificar el proceso con el comando lsof -i:<port>
 2. Eliminar el proceso con el comando kill <pid>
