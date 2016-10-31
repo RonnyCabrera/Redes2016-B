@@ -1,7 +1,7 @@
 En la práctica de transmisión UDP, entregar lo siguiente:
 
-1.	Captura de pantalla de los datos de la interfaz utilizada para el envío del paquete del lado del cliente
-2.	Captura de pantalla de los datos de la interfaz utilizada para el envío del paquete del lado del servidor
+1.	Captura de pantalla con datos de la interfaz utilizada para el envío del paquete del lado del cliente
+2.	Captura de pantalla con datos de la interfaz utilizada para el envío del paquete del lado del servidor
 3.	Captura de pantalla del puerto y proceso del cliente
 4.	Captura de pantalla del puerto y proceso del servidor
 5.	Video de la ejecución el programa desde Eclipse o el IDE de su preferencia en el lado del servidor
