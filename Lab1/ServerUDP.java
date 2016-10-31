@@ -1,4 +1,4 @@
-package ec.edu.epn.redes.date.udp;
+package ec.edu.epn.redes.mensaje.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
