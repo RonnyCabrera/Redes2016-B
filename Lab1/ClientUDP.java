@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 /**
  * Trivial client for the date server.
  */
-public class DateClientUDP {
+public class ClientUDP {
 
 	private static int SERVER_PORT = 9091;
 	
