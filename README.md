@@ -1,7 +1,5 @@
 # Redes2016-B
 
-Por favor subir los códigos fuentes de acuerdo al siguiente formato:
+Cada estudiante debe crear una carpeta con su nombre con el siguiente formato: Nombre_Apellido
 
-Nombre_Apellido_Lab#
-
-Donde # es el número del laboratorio correspondiente
+Dentro de la carpeta Nombre_Apellido, crear una carpeta con el número de laboratorio correspondiente, por ejemplo: Lab1
