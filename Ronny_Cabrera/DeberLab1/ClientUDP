@@ -1,0 +1,39 @@
+package ec.edu.epn.redes.date.udp;
+
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+
+import javax.swing.JOptionPane;
+
+public class DateClientUDP {
+	private static int server_port = 9091;
+	
+	public static void main(String[] args) throws IOException {
+		String serverAddress = JOptionPane.showInputDialog("Ingrese la direccion IP\nde la maquina que esta corriendo\nel servicio en el puerto " + server_port + " : ");
+		
+		//UDP en java usando sockets
+		DatagramSocket clientSocket = new DatagramSocket();
+		byte bufferSend[] = serverAddress.getBytes();
+		DatagramPacket sendPacket = new DatagramPacket(bufferSend, bufferSend.length, InetAddress.getByName(serverAddress), server_port);
+		clientSocket.send(sendPacket);
+		
+		byte bufferReceive[] = new byte[128];
+		DatagramPacket receivePacket = new DatagramPacket(bufferReceive, bufferReceive.length);
+		clientSocket.receive(receivePacket);
+		
+		InputStream myInputStream = new ByteArrayInputStream(receivePacket.getData());
+		BufferedReader input = new  BufferedReader(new InputStreamReader(myInputStream));
+		String answer = input.readLine();
+		
+		JOptionPane.showMessageDialog(null, answer);
+		clientSocket.close();
+		System.exit(0);
+	}
+
+}
